@@ -51,7 +51,7 @@ if ingredients_list:
             values ('""" + ingredients_string + """', '""" + name_on_order + """')"""
 
     
-    st.write(my_insert_stmt)
+   ## st.write(my_insert_stmt)
     
     time_to_insert = st.button('Sumbit Order')
 
